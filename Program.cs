@@ -15,12 +15,17 @@ namespace Quiz2
 
             for (int i = 0; i < totalRose; i++) {
                 int id,amount;string plantname, plantdes,height,circumference;
-
+                Console.WriteLine("ID : ");
                 id = int.Parse(Console.ReadLine());
+                Console.WriteLine("Plant Name : ");
                 plantname = Console.ReadLine();
+                Console.WriteLine("Plant Desciption : ");
                 plantdes = Console.ReadLine();
+                Console.WriteLine("Amount " );
                 amount = int.Parse(Console.ReadLine());
+                Console.WriteLine("Height : ");
                 height = Console.ReadLine();
+                Console.WriteLine("Circumference : ");
                 circumference = Console.ReadLine();
                 Rose rose = new Rose(id,plantname,plantdes,amount,height,circumference);
                 rose.addRose(rose,i+1);
@@ -30,11 +35,17 @@ namespace Quiz2
             {
                 int id, amount; string plantname, plantdes, height, circumference;
 
+                Console.WriteLine("ID : ");
                 id = int.Parse(Console.ReadLine());
+                Console.WriteLine("Plant Name : ");
                 plantname = Console.ReadLine();
+                Console.WriteLine("Plant Desciption : ");
                 plantdes = Console.ReadLine();
+                Console.WriteLine("Amount ");
                 amount = int.Parse(Console.ReadLine());
+                Console.WriteLine("Height : ");
                 height = Console.ReadLine();
+                Console.WriteLine("Circumference : ");
                 circumference = Console.ReadLine();
                 Sunflower sunflower = new Sunflower(id, plantname, plantdes, amount, height, circumference);
                 sunflower.addSunflower(sunflower,i+1);
